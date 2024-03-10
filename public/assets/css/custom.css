@@ -1,0 +1,53 @@
+.nav-item {
+    transition: background-color 0.1s ease, box-shadow 0.1s ease;
+    border-radius: 12px;
+}
+
+.nav-item:hover {
+    background-image: linear-gradient(340deg, #F8F8F8, #f0f0f0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item:hover .nc-icon-wrapper {
+    fill: #ffffff;
+}
+
+.nav-item:hover .nav-link-text {
+    color: black;
+    /* Change this to your default text color */
+}
+
+.nav-item:hover #icon-bg {
+    background-image: linear-gradient(310deg, darkblue, purple)
+}
+
+.icon-shape,
+.nav-link-text {
+    transition: all 0.1s ease;
+}
+
+#brand-img-svg {
+    height: 2.5rem;
+    fill: #002e6e;
+}
+
+.main-content {
+    min-height: 99vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin: auto 0 0 0;
+    padding: 0 2rem 1rem 1rem;
+}
+
+.text-sm p {
+    font-size: .875rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 0.2rem;
+}
+
+#card-title {
+    white-space: nowrap;
+}
